@@ -1,0 +1,30 @@
+
+in x (16)
+in dx(16)
+in y (16)
+in u (16)
+in a (16) ;:   ; aqui eu posso colocar comentários.....só que não estará no arq.vhdl
+
+var x1	(16)
+var y1	(16)
+var u1	(16)
+out comp	(1)
+out saida (16)
+out comp1 (64)
+var xx1 (4); tentando declarar uma mesma entrada duas vezes...
+in meus(18) ; centimetros
+            ; onde quiseres																	
+main:
+
+x1<:x
+y1<:y
+u1<:u
+
+while [comp <: x1<a]
+x1 <: x1+dx
+u1 <: ( a + b - c ) * d - ( e + f ); comentaios onde quiseres					
+u1 <: u1-(3*x1*u1*dx)-(3*y1*dx); comentaios onde quiseres					
+y1 <: y1+u1*dx
+saida <: y1
+endwhile
+end
